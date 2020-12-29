@@ -1,7 +1,7 @@
 # yum-update.yaml
 
 ---
-  - hosts: webserver:loadbalancers
+  - hosts: all
     become: true
     tasks: 
       - name: Updating yum packages 
