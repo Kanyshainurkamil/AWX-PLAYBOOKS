@@ -24,7 +24,7 @@
     - name: Create users
       user:
         name: "{{ item }}"         
-        groups: docker, wheel
+        groups: wheel
         append: yes 
         state: present
         create_home: yes
